@@ -1,0 +1,110 @@
+.categories{
+    background-color:  rgb(253 215 233); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px;
+    gap: 40px;
+}
+.categories h3{
+text-align: center;
+color: white;
+
+}
+.cat img{
+    width:147px;
+    height: 242px;
+    box-shadow: 0px 5px 5px black;
+    border-radius: 12px;
+
+}
+.cat{
+    box-shadow: 0px 5px 5px black;
+    cursor: pointer;
+    border-radius: 12px;
+
+
+}
+.cat:hover{
+    box-shadow: 0px 5px 5px white
+}
+.cat .img :hover{
+    box-shadow: 0px 5px 5px white;
+}
+.categories .cat h3{
+    text-shadow: 2px 2px 4px  black;
+
+}
+ .cattitle{
+background-color: rgb(253 215 233); 
+margin: 0px;
+display: block;
+text-align: center;
+}
+.cattitle h1{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px  black;
+    
+}
+.cat2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    
+    
+}
+.cat2 h2 {
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.cat2 p{
+    text-align: center;
+    color: rgb(59, 59, 59);
+
+}
+.small{
+    background-color:  rgb(253 215 233); 
+    border-radius: .375rem ;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:700px){
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        
+    }
+   
+    .cat2{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        margin: 0;
+        gap: 5px;
+        padding-top: 20px;
+        margin: 5px;
+    }
+     div > .cat:nth-child(5){
+        text-align: center;
+    }
+    }
+    
+@media screen and (max-width:1440px){
+        .cat2 {
+            gap: 10px;
+            margin: 20px;
+            padding: 20px;
+        }
+        
+     }
+     

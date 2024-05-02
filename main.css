@@ -1,0 +1,110 @@
+.main{
+    position: relative;
+    text-align: center;
+    display: inherit;
+
+}
+.main img{
+    width: 100%;
+}
+
+.main h1 {
+    position: absolute;
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 9px blueviolet
+    
+}
+.main h1:hover{
+   
+    text-shadow: 2px 2px 9px black
+    
+
+}
+.micro{
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 
+    
+}
+.micro:hover{
+    box-shadow: 0px 5px 5px blueviolet;
+ 
+
+}
+.micro img{
+    height: 260px;
+    width: 229px;
+}
+.micro h3{
+    text-align: center;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px
+
+}
+.main button{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main button{
+     border-radius: 12px;
+     font-size: 34px;
+     cursor: pointer;
+     background-color: blueviolet;
+     color: white;
+     text-shadow: 2px 2px 9px pink;
+     
+}
+.main button:hover{
+    background-color: black;
+    border-color: blueviolet;
+    border: 3px solid blueviolet;
+}
+@media screen and (max-width:700px){
+    .start{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+       
+    }
+    .main h1{
+        font-size: 20px;
+    }
+    .micro{
+        box-shadow: 0px 0px 5px black;
+        overflow: hidden;
+    }
+    .micro img{
+        height: 200px;
+        width: 170px;
+    }
+    .main button{
+        bottom: 5%;
+        left: 50%;
+        font-size: 15px;
+    }
+  
+}
+
+
+@media screen and (max-width:1400px){
+.start{
+    margin: 20px;
+}
+.main button{
+    bottom: 20%;
+    left: 50%;
+    font-size: 30px;
+}
+}
+    
