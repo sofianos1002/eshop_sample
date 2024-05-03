@@ -85,11 +85,20 @@
         height: 100%;
     }
      .src {
-        color: rgb(253 215 233);
-        border: 1px solid green;
+        background-color:  rgb(253 215 233); 
+        display: flex;
+        justify-content: right;
+        align-content: center;
+
      }
      .bar{
-        padding: 20px;
-        float: right;
+        padding: 20px;  
+        background-color:  rgb(253 215 233);       
 
+     }
+     .but{
+        padding: 8px;
+        border-radius: 15px;
+        box-shadow: 2px 4px 8px black;
+        cursor: pointer;
      }
