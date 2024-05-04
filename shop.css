@@ -1,85 +1,4 @@
-.header{
-    background-color: blueviolet;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   border: 2px solid black;
-  
-    
-}
-.logo{
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    margin: 5px;
-    cursor: pointer;
-    
-    
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-.navbar a:hover{
-    color: pink;
-}
-.logo:hover{
-    color: black;
-    text-shadow: 2px 2px 5px white;
-}
 
-
-.login{
-    font-size: 24px;
-    border-radius: 40px;
-
-    cursor: pointer;
-    background-color: blueviolet;
-    color: white;
-    text-shadow: 2px 2px 9px pink;
-    position: absolute;
-    left: 95%;
-    bottom: 95%;
-    transform: translate(-50%,50%);
-    border: 1.5px solid black;
-    padding: 10px;
-    
-}
-.login:hover{
-    background-color: black;
-    border-color: blueviolet;
-    border: 1px solid pink;
-}
-
-@media screen and (max-width:700px){
-    .header{
-       display: flex;
-       align-content: space-around;
-        width: 100%;
-        height: 5%;
-    }
-    .navbar li{
-        padding: 0;
-        font-size: 10px;
-    }
-    .logo{
-        font-size: 10px
-    }
-.login{
-    font-size: 12px;
-    left: 93%;
-    bottom: 97%;
-    
-}
-}
-
-@media screen and (max-width:1440px){
-   .login{
-    left: 93%;
-    bottom: 93%;
-   }
-  
-    }
     body , html {
         margin: 0;
         height: 100%;
@@ -109,6 +28,8 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin-right: 100px;
         margin-left: 100px;
+        row-gap: 20px;        
+        
     }
     
      .cards{
@@ -118,9 +39,10 @@
         align-items: center;
         padding: 20px;
         border: 1px solid black;
+        margin: 20px;
     }
     .cards{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      max-width: 300px;
     margin: auto;
     text-align: center;
@@ -137,4 +59,10 @@
         width: 100%;
         font-size: 18px;
       }
-      
+      .cards button:hover{
+        opacity: 0.7;
+      }
+      .primg img{
+        height: 350px; ;
+        width: 220px ;
+      }
