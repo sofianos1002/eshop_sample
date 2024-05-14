@@ -4,7 +4,7 @@
         height: 100%;
     }
      .src {
-        background-color:  rgb(253 215 233); 
+      background-color:  rgb(253 215 233); 
         display: flex;
         justify-content: right;
         align-content: center;
@@ -25,24 +25,30 @@
    
     .Products{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-right: 100px;
         margin-left: 100px;
-        row-gap: 20px;        
+        row-gap: 20px; 
+        padding: 20px;
+
+             
         
     }
-    
+   
+  
+  
      .cards{
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
         padding: 20px;
-        border: 1px solid black;
+        border: 4 px solid rgb(253 215 233);
         margin: 20px;
+        border-radius: 20px;
     }
     .cards{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      max-width: 300px;
     margin: auto;
     text-align: center;
@@ -58,11 +64,25 @@
         cursor: pointer;
         width: 100%;
         font-size: 18px;
+        border-radius: 15px;
       }
       .cards button:hover{
         opacity: 0.7;
       }
       .primg img{
-        height: 350px; ;
-        width: 220px ;
+        
+        border-radius: 10px;
       }
+      
+      .primg{
+        cursor: pointer;
+      }
+      .primg:hover{
+        opacity: 0.7;
+      }
+      @media screen and (max-width:1400px){
+        .primg img{
+          width: 200px;
+          height: 378px;
+        }
+        }

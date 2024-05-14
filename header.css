@@ -24,8 +24,7 @@
     color: pink;
 }
 .logo:hover{
-    color: black;
-    text-shadow: 2px 2px 5px white;
+    opacity: 0.7;
 }
 
 
