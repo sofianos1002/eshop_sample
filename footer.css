@@ -13,3 +13,21 @@
 .fa-brands{
     color: pink;
 }
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.info{
+    text-align: center;
+}
+.info p{
+    font-size:16px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.info h5{
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}

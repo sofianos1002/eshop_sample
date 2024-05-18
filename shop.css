@@ -3,18 +3,7 @@
         margin: 0;
         height: 100%;
     }
-     .src {
-      background-color:  rgb(253 215 233); 
-        display: flex;
-        justify-content: right;
-        align-content: center;
-
-     }
-     .bar{
-        padding: 20px;  
-        background-color:  rgb(253 215 233);       
-
-     }
+     
      .but{
         padding: 8px;
         border-radius: 15px;
@@ -36,7 +25,12 @@
     }
    
   
-  
+    .src{
+      position: absolute;
+     top: 0;
+     right: 0;
+     padding: 30px;
+    }
      .cards{
         display: flex;
         flex-direction: column;
