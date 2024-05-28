@@ -88,11 +88,17 @@ text-align: center;
    
     .cat2{
         display: grid;
-        grid-template-columns: 1fr  1fr;
-        margin: 0;
-        gap: 5px;
-        padding-top: 20px;
-        margin: 5px;
+        grid-template-columns: 1fr 1fr ;
+        font-size: 10px;
+    
+        
+    }
+    .cat2 .small{
+       
+        
+    }
+    .cat2 h2{
+        font-size: 20px;
     }
      div > .cat:nth-child(5){
         text-align: center;

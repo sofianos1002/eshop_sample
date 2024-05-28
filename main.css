@@ -80,6 +80,9 @@
     .main h1{
         font-size: 20px;
     }
+    .main img{
+        height: 180px;
+    }
     .micro{
         box-shadow: 0px 0px 5px black;
         overflow: hidden;
@@ -88,12 +91,13 @@
         height: 200px;
         width: 170px;
     }
-    .main button{
+    .main a button{
         bottom: 5%;
         left: 50%;
         font-size: 15px;
+       
     }
-  
+    
 }
 
 
