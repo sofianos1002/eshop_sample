@@ -24,7 +24,13 @@
         
     }
    
-  
+    input[type=text]{
+      width: 100px;
+      transition: 0.5s ease-in-out;
+    }
+    input[type=text]:focus{
+      width: 70%;
+    }         
     .src{
       position: absolute;
      top: 0;
@@ -130,4 +136,25 @@
             margin: 0;
             column-gap: 5px;
           }
+          .col img{
+            height: 180px;
+            width: 100%;
+          }
+          .col .src{
+            top: 0;
+            right: 0;
+            padding: 5px;
+            
+          }
+          .content button{
+            font-size: 15px;
+            padding: 5px 20px;
+          }
+          input[type=text]{
+            width: 100px;
+            transition: 0.5s ease-in-out;
+          }
+          input[type=text]:focus{
+            width: 70%;
+          }         
           }

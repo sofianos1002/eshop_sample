@@ -16,19 +16,33 @@
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     
+    
 }
 .info{
     text-align: center;
 }
-.info p{
-    font-size:16px;
+
+.info .P{
+    font-size:15px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-}
-.info h5{
-    font-size: 40px;
-    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
     cursor: pointer;
     
+}
+.info h3{
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:700px){
+    .info .P{
+        font-size: 10px;
+        
+    }
+    .info h3{
+        font-size: 13px;
+    }
 }
